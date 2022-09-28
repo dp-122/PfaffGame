@@ -2,22 +2,26 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
+import {MainGame} from "./MainGame";
+
+
 console.log('Script started successfully');
 
-let currentPopup: any = undefined;
 
+let mainGame: MainGame;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
+
+
+    mainGame = new MainGame();
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    WA.room.onEnterLayer('clockZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-    })
 
-    WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+
+    mainGame.startAllChallengeLayers();
+    mainGame.startAllInstructionLayers();
+
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
@@ -26,11 +30,11 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-function closePopUp(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
+
+
+
+
+
 
 export {};
+
