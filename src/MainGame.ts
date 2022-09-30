@@ -68,7 +68,14 @@ class MainGame{
             "der ersten Herausforderung ihre Gesamtpunktzahl einsehen."
         }
         WA.room.onEnterLayer(zone).subscribe(() => {
-            this.instructionPopup = WA.ui.openPopup(zone+ "Popup",instructionMsg,[]);
+            this.instructionPopup = WA.ui.openPopup(zone+ "Popup",instructionMsg,[{
+                label: "Close",
+                className: "primary",
+                callback: (popup) => {
+                    // Close the popup when the "Close" button is pressed.
+                    popup.close();
+                }
+            }]);
         })
 
 
