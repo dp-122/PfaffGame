@@ -64,8 +64,13 @@ class MainGame{
 
         else if(zone == "instruction3"){
             instructionMsg =  "Für jede Herausforderung gibt es Punkte zum Sammeln. \n \n" +
-            "Im Hauptraum können Sie nach dem Starten \n " +
-            "der ersten Herausforderung ihre Gesamtpunktzahl einsehen."
+            "Im Hauptraum können Sie nach dem \n " +
+            "Starten der ersten Herausforderung ihre Gesamtpunktzahl einsehen. \n \n" +
+                "Die Informationen und Apps \n " +
+                "für die Herausforderungen finden \n " +
+                "Sie auf der Plattformswebseite. \n \n" +
+                "Ps: Mit dem Scrollrad können \n" +
+                "Sie rein und raus zoomen."
         }
         WA.room.onEnterLayer(zone).subscribe(() => {
             this.instructionPopup = WA.ui.openPopup(zone+ "Popup",instructionMsg,[{
@@ -108,7 +113,7 @@ class MainGame{
         if (zone == "startQuiz2"){
             challenge = "Quiz für Entwickler: \n" +
                 "In diesem Spiel müssen Sie 6 verschiedene \n" +
-                "Etnwicklerfragen zur Quartiersplattform beantworten. \n \n" +
+                "Entwicklerfragen zur Quartiersplattform beantworten. \n \n" +
                 "Pro richtig beantworte Frage kriegen Sie einen Punkt. \n" +
                 "Bei falsch beantwortete Fragen wird \n" +
                 "Ihnen ein Punkt abgezogen. \n \n" +
@@ -124,7 +129,8 @@ class MainGame{
                 "Für das richtige Ausschalten gibt es 4 Punkte. \n \n" +
                 "Ansonsten wird Ihnen ein Punkt abgezogen \n " +
                 "und können dann wieder einen Versuch starten. \n \n" +
-                "Tipp für die Lampen: Fish n' Tipps Kategorie Energie"
+                "Tipp für die Lampen: App Fish n' Tipps \n " +
+                "Kategorie Energie wird ihnen helfen."
         }
 
         else if (zone == "startSearchChallenge") {

@@ -144,7 +144,7 @@ class Quiz{
                 });
 
                 const triggerMessage2 = WA.ui.displayActionMessage({
-                    message: "Drücke 'space', um die Webseite zu schließen",
+                    message: "Drücken Sie zuerst auf das Spiel und dann 'space', um die Webseite zu schließen",
                     callback: async () => {
                         await myWebsite.close();
                         await triggerMessage2.remove();
