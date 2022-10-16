@@ -107,7 +107,7 @@ Die Informationen und Apps
  f\xFCr die Herausforderungen finden 
  Sie auf der Plattformswebseite. 
  
-Ps: Mit dem Scrollrad k\xF6nnen 
+PS: Mit dem Scrollrad k\xF6nnen 
 Sie rein und raus zoomen.`),WA.room.onEnterLayer(e).subscribe(()=>{this.instructionPopup=WA.ui.openPopup(e+"Popup",t,[{label:"Close",className:"primary",callback:i=>{i.close()}}])})}onLeaveInstructionLayer(e){WA.room.onLeaveLayer(e).subscribe(()=>{this.instructionPopup.close()})}onLeaveChallengeLayer(e){WA.room.onLeaveLayer(e).subscribe(()=>{this.currentPopup.close()})}onEnterChallengeLayer(e){let t;e=="startQuiz"&&(t=`Quiz f\xFCr Bewohner: 
 In diesem Spiel m\xFCssen Sie 8 verschiedene 
 Fragen zur Quartiersplattform beantworten. 
