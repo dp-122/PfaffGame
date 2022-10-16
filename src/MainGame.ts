@@ -67,7 +67,7 @@ class MainGame{
                 "Die Informationen und Apps \n " +
                 "für die Herausforderungen finden \n " +
                 "Sie auf der Plattformswebseite. \n \n" +
-                "Ps: Mit dem Scrollrad können \n" +
+                "PS: Mit dem Scrollrad können \n" +
                 "Sie rein und raus zoomen."
         }
         WA.room.onEnterLayer(zone).subscribe(() => {
