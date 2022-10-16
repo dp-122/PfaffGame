@@ -46,9 +46,7 @@ class MainGame{
     private onEnterInstructionLayer(zone:string){
         let instructionMsg: string;
         if (zone == "instruction1"){
-            instructionMsg = "Das Spiel das Sie gerade spielen, \n" +
-                "wird ihnen die Quartiersplattform \n" +
-                "des Pfaff-Quartiers näher bringen. \n \n" +
+            instructionMsg = "Das Spiel das, Sie gerade spielen, wird ihnen die Quartiersplattform des Pfaff-Quartiers näher bringen. \n \n" +
                 "Mit vier Herausforderungen können Sie \n" +
                 "einige Vorteile der Plattform kennenlernen."
         }
@@ -124,11 +122,11 @@ class MainGame{
             challenge = "EChallenge: \n" +
                 "In der Wohnung von Maximilian gibt es 4 Geräte, die jeweils an oder aus sind. \n \n" +
                 "Schalten Sie alle Geräte aus, die bereits an sind. \n \n" +
-                "Wenn Sie denken, Sie haben alle Geräte richtig ausgeschaltet, \n" +
+                "Wenn Sie denken, dass Sie alle Geräte richtig ausgeschaltet haben, \n" +
                 "gehen Sie zum blauen Feld und beenden die Herausforderung. \n \n"+
                 "Für das richtige Ausschalten gibt es 4 Punkte. \n \n" +
-                "Ansonsten wird Ihnen ein Punkt abgezogen \n " +
-                "und können dann wieder einen Versuch starten. \n \n" +
+                "Für das falsche Ausschalten wird Ihnen ein Punkt abgezogen. \n " +
+                "Sie dann wieder einen neuen Versuch starten. \n \n" +
                 "Tipp für die Lampen: App Fish n' Tipps \n " +
                 "Kategorie Energie wird ihnen helfen."
         }
