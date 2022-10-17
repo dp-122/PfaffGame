@@ -52,7 +52,7 @@ A: Greenly  B: Fish n'Tipps  C: Pfaff-Funk`,[])),this.currentQ==5&&(this.questio
  A: 8  B: 10  C: 9`,[])),this.currentQ==6&&(this.questionPopup=WA.ui.openPopup("question"+this.quizType+"Popup",`Welches dieser Verkehrsmittel 
 ist am energiesparendsten? 
  
-A: Auto  B: E-Auto C: Fahrrad`,[])),this.currentQ==7&&(this.questionPopup=WA.ui.openPopup("question"+this.quizType+"Popup",`Pro Jahr werden in Deutschland 12 Millionen Tonnen 
+A: Auto  B: E-Auto C: Fahrrad`,[])),this.currentQ==7&&(this.questionPopup=WA.ui.openPopup("question"+this.quizType+"Popup",`Pro Jahr werden weltweit 1,3 Milliarden Tonnen 
 an Essen verschwendet. Welche App 
 hilft dir dabei, diese Lebensmittelverschwendung gezielt zu bek\xE4mpfen 
 und gleichzeitig Geld zu sparen? 
