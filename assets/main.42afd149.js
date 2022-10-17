@@ -65,7 +65,7 @@ B: Message Query Telemetry Transport
  
 C: Machine Query Telemetry Transport 
  
-`,[])),this.currentQ==10&&(this.questionPopup=WA.ui.openPopup("question"+this.quizType+"Popup",`Was sind Shared Topics im MQTT-Broker in erster Linie?
+`,[])),this.currentQ==10&&(this.questionPopup=WA.ui.openPopup("question"+this.quizType+"Popup",`Was sind \u201EShared Topics\u201C im MQTT-Broker in erster Linie?
  
  A: Themen, die wichtig f\xFCr Bewohner sind 
  
