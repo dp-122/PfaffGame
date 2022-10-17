@@ -222,7 +222,7 @@ class Quiz{
         }
 
         if (this.currentQ == 7){
-            this.questionPopup = WA.ui.openPopup("question"+this.quizType + "Popup","Pro Jahr werden in Deutschland 12 Millionen Tonnen \n" +
+            this.questionPopup = WA.ui.openPopup("question"+this.quizType + "Popup","Pro Jahr werden weltweit 1,3 Milliarden Tonnen \n" +
                 "an Essen verschwendet. Welche App \n" +
                 "hilft dir dabei, diese Lebensmittelverschwendung gezielt zu bekämpfen \n" +
                 "und gleichzeitig Geld zu sparen? \n \n" +
