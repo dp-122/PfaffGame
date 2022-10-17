@@ -235,7 +235,7 @@ class Quiz{
                 "C: Machine Query Telemetry Transport \n \n"  ,[]);
         }
         if (this.currentQ == 10){
-            this.questionPopup = WA.ui.openPopup("question"+this.quizType + "Popup","Was sind Shared Topics im " +
+            this.questionPopup = WA.ui.openPopup("question"+this.quizType + "Popup","Was sind „Shared Topics“ im " +
                 "MQTT-Broker in erster Linie?\n \n " +
                 "A: Themen, die wichtig für Bewohner sind \n \n" +
                 "B: Öffentliche, Asynchrone Informationskanäle \n \n" +
